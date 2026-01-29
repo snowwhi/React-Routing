@@ -12,7 +12,7 @@ function App() {
         <Header/>
         {/* <Home /> */}
         {/* <Company/> */}
-         {/* <Partners/> */}
+         <Partners/>
 </>
   )
 }
