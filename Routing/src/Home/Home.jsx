@@ -24,13 +24,13 @@ function Home() {
         <p className="text-lg md:text-xl max-w-2xl drop-shadow-md uppercase">
           CMS Technology Partners
         </p>
-        <h1 className="text-4xl md:text-6xl font-bold mb-4 drop-shadow-lg">
+        <h1 className="text-4xl md:text-6xl font-bold mb-4 drop-shadow-lg sm:text-2xl">
             &nbsp;AI Camera Vision &<br/>Thread Detection
         </h1>
-        <p className="text-lg md:text-xl max-w-2xl drop-shadow-md text-left">
+        <p className="text-lg md:text-xl max-w-2xl drop-shadow-md text-left hidden lg:block">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita non repudiandae quibusdam, vero hic quam doloribus. Doloremque eos esse facilis expedita alias harum numquam non, excepturi consequatur architecto, repellendus dicta.
         </p>
-        <button className=" mt-8 ml-18 text-white bg-green-700 hover:bg-green-800 focus:ring-4 focus:ring-green-300 font-bold rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2 focus:outline-none">
+        <button className="  mt-4 ml-5 lg:mt-8 lg:ml-18 text-white bg-green-700 hover:bg-green-800 focus:ring-4 focus:ring-green-300 font-bold rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2 focus:outline-none ">
            Get started
         </button>
       </div>
@@ -39,13 +39,13 @@ function Home() {
           onClick={prevSlide}
           className="text-white bg-green-700 hover:bg-green-800 focus:ring-4 focus:ring-green-300 font-bold rounded-lg text-sm px-3 lg:px-5 py-2 lg:py-2.5 mr-2 focus:outline-none"
         >
-          <i class="ri-arrow-left-line"></i>
+          <i className="ri-arrow-left-line"></i>
         </button>
         <button 
           onClick={nextSlide}
           className="text-white bg-green-700 hover:bg-green-800 focus:ring-4 focus:ring-green-300 font-bold rounded-lg text-sm px-3 lg:px-5 py-2 lg:py-2.5 mr-2 focus:outline-none"
         >
-         <i class="ri-arrow-right-line"></i>
+         <i className="ri-arrow-right-line"></i>
         </button>
       </div>
     </div>
