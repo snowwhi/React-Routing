@@ -4,6 +4,7 @@ import './App.css'
 import Home from './Home/Home.jsx'
 import Company from './Company/Company.jsx'
 import Partners from './Partners/Partners.jsx'
+import Blog from './Blog/Blog.jsx'
 
 
 function App() {
@@ -12,7 +13,8 @@ function App() {
         <Header/>
         {/* <Home /> */}
         {/* <Company/> */}
-         <Partners/>
+         {/* <Partners/> */}
+         <Blog/>
 </>
   )
 }
