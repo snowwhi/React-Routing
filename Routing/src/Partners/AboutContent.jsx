@@ -25,20 +25,20 @@ function AboutContent() {
               implementation, maintenance, and security.
             </p>
           </div>
-          <div className="rounded-lg overflow-hidden shadow-lg">
+          <div className="rounded-lg overflow-hidden shadow-lg group ">
             <img 
               src={P2} 
               alt="Security monitoring on tablet"
-              className="w-full h-auto object-cover"
+              className="w-full h-auto object-cover transition-transform duration-500 group-hover:scale-110"
             />
           </div>
         </div>
         <div className="lg:col-span-7 space-y-6">
-          <div className="rounded-lg overflow-hidden shadow-lg h-64 lg:h-96">
+          <div className="rounded-lg overflow-hidden shadow-lg h-64 lg:h-96 group  ">
             <img 
               src={P1} 
               alt="Security control room"
-              className="w-full h-full object-cover"
+              className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
             />
           </div>
           <div className="bg-gray-50 p-6 rounded-lg">
