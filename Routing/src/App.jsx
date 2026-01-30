@@ -1,20 +1,15 @@
-import Header from './Header/Header.jsx'
-
 import './App.css'
-import Home from './Home/Home.jsx'
-import Company from './Company/Company.jsx'
-import Partners from './Partners/Partners.jsx'
-import Blog from './Blog/Blog.jsx'
+import Header from './Header/Header.jsx'
+import Footer from './Footer/Footer.jsx'
+import { Outlet } from 'react-router-dom'
 
 
 function App() {
   return (
 <>
         <Header/>
-        {/* <Home /> */}
-        {/* <Company/> */}
-         {/* <Partners/> */}
-         <Blog/>
+        <Outlet/>
+         <Footer/>
 </>
   )
 }
